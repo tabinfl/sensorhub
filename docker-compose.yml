@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+
+  sensorhub:
+    container_name: sensorhub
+    hostname: sensorhub
+    build: sensorhub/
+    image: sofwerx/sensorhub
+    logging: *default-logging
+    labels:
+      - "traefik.enable=false"
+
