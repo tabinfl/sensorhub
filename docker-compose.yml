@@ -1,13 +1,11 @@
-version: '2.1'
+version: "3"
 
 services:
 
   sensorhub:
     container_name: sensorhub
     hostname: sensorhub
-    build: sensorhub/
-    image: sofwerx/sensorhub
-    logging: *default-logging
-    labels:
-      - "traefik.enable=false"
-
+    build: .
+    ports:
+      - "8181:8181"
+    image: tabinfl/sensorhub
