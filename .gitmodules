@@ -4,18 +4,6 @@
 [submodule "osh-core"]
 	path = osh-core
 	url = https://github.com/opensensorhub/osh-core
-[submodule "osh-comm"]
-	path = osh-comm
-	url = https://github.com/opensensorhub/osh-comm
-[submodule "osh-sensors"]
-	path = osh-sensors
-	url = https://github.com/opensensorhub/osh-sensors
-[submodule "osh-video"]
-	path = osh-video
-	url = https://github.com/opensensorhub/osh-video
-[submodule "osh-positioning"]
-	path = osh-positioning
-	url = https://github.com/opensensorhub/osh-positioning
-[submodule "osh-processing"]
-	path = osh-processing
-	url = https://github.com/opensensorhub/osh-processing
+[submodule "osh-addons"]
+	path = osh-addons
+	url = https://github.com/opensensorhub/osh-addons.git
