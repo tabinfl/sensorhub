@@ -3,7 +3,7 @@
 	url = https://github.com/opensensorhub/osh-core
 [submodule "osh-addons"]
 	path = osh-addons
-	url = https://github.com/opensensorhub
+	url = https://github.com/opensensorhub/osh-addons
 [submodule "osh-android"]
 	path = osh-android
-	url = https://github.com/opensensorhub
+	url = https://github.com/opensensorhub/osh-android
