@@ -1,9 +1,9 @@
-[submodule "osh-android"]
-	path = osh-android
-	url = https://github.com/sofwerx/osh-android
 [submodule "osh-core"]
 	path = osh-core
 	url = https://github.com/opensensorhub/osh-core
 [submodule "osh-addons"]
 	path = osh-addons
-	url = https://github.com/opensensorhub/osh-addons.git
+	url = https://github.com/opensensorhub
+[submodule "osh-android"]
+	path = osh-android
+	url = https://github.com/opensensorhub
